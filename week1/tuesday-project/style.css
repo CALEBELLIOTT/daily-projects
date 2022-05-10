@@ -55,7 +55,8 @@ main {
 /* !SECTION */
 /* SECTION Styles for right section of main */
 .main-img-block {
-  width: 30%;
+  width: 250px;
+  flex-direction: column;
 }
 
 .main-img-block h3,
@@ -64,6 +65,10 @@ main {
   max-width: 240px;
 }
 
+.main-img-block img {
+  height: 150px;
+  width: 250px;
+}
 
 /* !SECTION */
 
