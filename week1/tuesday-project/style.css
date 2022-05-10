@@ -1,0 +1,80 @@
+:root {
+  --primary: #1c4587;
+  --secondary: #d0e1f1;
+}
+
+html {
+  background-color: #1c4587;
+}
+
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 1em;
+  border: black solid 2px;
+}
+
+
+main {
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  min-height: 48rem;
+}
+
+/* SECTION Styles for left section of main */
+.bar {
+  min-height: 1rem;
+  min-width: fit-content;
+  background-color: var(--secondary);
+  margin-top: 3rem;
+}
+
+.main-text-block {
+  width: 50%;
+  text-align: left;
+}
+
+.main-text-block p {
+  padding: 1em;
+  text-align: left;
+}
+
+.main-text-block h1 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* !SECTION */
+/* SECTION Styles for right section of main */
+.main-img-block {
+  width: 30%;
+}
+
+.main-img-block h3,
+.main-img-block p {
+  margin-left: 10px;
+  max-width: 240px;
+}
+
+
+/* !SECTION */
+
+footer {
+  background-color: var(--primary);
+  min-width: 100%;
+  min-height: 25%;
+  position: fixed;
+  overflow-y: hidden;
+}
+
+.d-flex {
+  display: flex;
+}
