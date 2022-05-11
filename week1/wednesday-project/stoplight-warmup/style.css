@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 html {
   background-color: black;
 }
@@ -45,4 +49,8 @@ html {
 
 .green {
   background-color: green;
+}
+
+.light:hover {
+  filter: drop-shadow(0 0 15px white);
 }
